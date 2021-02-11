@@ -37,7 +37,7 @@ for /f "tokens=*" %%G in ('dir /b /a:d ".\*"') do (
 				cd \BOOM\FROM
 				IF ERRORLEVEL 1 GOTO :EOF
 				TIMEOUT 5
-				CLS
+REM	CLS
 			)
 		)
 	)
